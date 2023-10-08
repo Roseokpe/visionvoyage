@@ -5,7 +5,7 @@ import {
   Nav, Navbar, Container, Offcanvas,
 } from 'react-bootstrap';
 import { Link as ScrollLink } from 'react-scroll';
-import logo from '../asset/ring.png';
+import logo from '../asset/logo.jpg';
 
 function NavBar() {
   const location = useLocation();
@@ -34,7 +34,7 @@ function NavBar() {
           <Navbar.Brand as={Link} to="/">
             <img alt="planet log" src={logo} width={45} height={45} />
             {'  '}
-            Rose&#39;s Hub
+            VS&#39;s Travel
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="offcanvasNavbar"
@@ -48,7 +48,7 @@ function NavBar() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id="offcanvasNavbarLabel">
-                Rose&#39;s Hub
+              VS&#39;s Travel
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
@@ -64,7 +64,7 @@ function NavBar() {
                   className={activeLink === 'story' ? 'active navbar-link' : 'navbar-link'}
                   onClick={() => onUpdateActiveLink('story')}
                 >
-                  Our Story
+                  Our Vision
                 </ScrollLink>
                 )}
 
@@ -79,7 +79,7 @@ function NavBar() {
                   className={activeLink === 'gallery' ? 'active navbar-link' : 'navbar-link'}
                   onClick={() => onUpdateActiveLink('gallery')}
                 >
-                  Gallery
+                  About Us
                 </ScrollLink>
                 )}
 
@@ -94,7 +94,7 @@ function NavBar() {
                   className={activeLink === 'event' ? 'active navbar-link' : 'navbar-link'}
                   onClick={() => onUpdateActiveLink('event')}
                 >
-                  Event
+                  Testimonies
                 </ScrollLink>
                 )}
                 {location.pathname !== '/' && (
@@ -117,7 +117,7 @@ function NavBar() {
                   onClick={handleOffcanvasClose}
                   style={{ color: 'blueviolet' }}
                 >
-                  Registry
+                  Contact Us
                 </NavLink>
               </Nav>
             </Offcanvas.Body>
