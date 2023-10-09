@@ -7,7 +7,7 @@ const Footer = () => (
         Designed by
         {' '}
         <a style={{ color: '#e47a2e' }} href="https://chukwuemekavp.netlify.app/">
-          CHUKWUEMEKAVP ENTERPRISE
+          CHUKWUEMEKA
         </a>
       </p>
     </Container>
