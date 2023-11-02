@@ -11,3 +11,58 @@
 .hero-section {
     height: 100vh;
   }
+
+  .hero-section h1 {
+    display: block;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #fff;
+    padding-top: 30%;
+  }
+
+  .hero-section h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 14px;
+    color: #f7f3f3;
+    font-style: italic;
+  }
+
+  .services {
+    display: flex;
+    font-display: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 4px;
+  }
+
+  .services p {
+background-color: #636262;
+color: whitesmoke;
+padding: 2px 8px;
+border-radius: 12px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .hero-section h1 {
+        font-size: 88px;
+        padding-top: 10%;
+    }
+
+    .services {
+        width: 60%;
+    }
+    .flight-section {
+        display: flex;
+        flex-direction: row;
+        margin: 0 0;
+
+    }
+    .flight-image {
+        margin: 0 0;
+    }
+  }

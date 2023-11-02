@@ -8,20 +8,23 @@ const Hero = () => (
       position: 'relative', backgroundImage: `url(${hero})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center',
     }}
   >
-    <div style={{
-      position: 'absolute'}}>
-    <h1>Vision Voyage Travel</h1>
-    <p> Navigating Dreams, Connecting Worlds</p>
-    <div className=''> 
-      <p> Hotel Reservation</p>
-      <p> Vacation Planning</p>
-      <p> Flight Booking</p>
-      <p> Visa Processing</p>
-      <p> Education Advising</p>
-      <p> Honeymoon Packages</p>
-      <p> Travel Insurance</p>
+    <div
+      style={{
+        position: 'absolute', width: '100%',
+      }}
+    >
+      <h1>Vision Voyage Travel</h1>
+      <h2> Navigating Dreams, Connecting Worlds</h2>
+      <div className="services">
+        <p> Hotel Reservation</p>
+        <p> Vacation Planning</p>
+        <p> Flight Booking</p>
+        <p> Visa Processing</p>
+        <p> Education Advising</p>
+        <p> Honeymoon Packages</p>
+        <p> Travel Insurance</p>
+      </div>
     </div>
-  </div>
   </div>
 );
 

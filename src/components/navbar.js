@@ -48,7 +48,7 @@ function NavBar() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id="offcanvasNavbarLabel">
-              VS&#39;s Travel
+                VS&#39;s Travel
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
@@ -58,7 +58,7 @@ function NavBar() {
                   to="story"
                   spy
                   smooth
-                  offset={-70} // Adjust this value as needed to properly align the scrolling position
+                  offset={-70}
                   duration={500}
                   style={scrollLinkStyle} // Apply inline styling
                   className={activeLink === 'story' ? 'active navbar-link' : 'navbar-link'}
