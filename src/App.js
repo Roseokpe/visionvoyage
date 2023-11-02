@@ -3,18 +3,15 @@ import { Route, Routes } from 'react-router-dom';
 import NavBar from './components/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/footer';
-// import Present from './components/present';
-// import Home from './components/home';
-// import PaystackIntegration from './components/payment';
+import Hero from './components/hero';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <Hero />
       <Routes>
-        {/* <Route path="/pay" element={<PaystackIntegration />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/gifts" element={<Present />} /> */}
+         {/* <Route path="/" element={<Home />} /> */}
       </Routes>
       <Footer />
     </div>
