@@ -41,10 +41,11 @@
   }
 
   .services p {
-background-color: #636262;
+background-color: #f08724;
 color: whitesmoke;
 padding: 2px 8px;
 border-radius: 12px;
+cursor: pointer;
   }
 
   @media screen and (min-width: 768px) {

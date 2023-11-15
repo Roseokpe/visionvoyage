@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
 import flightImage from '../asset/flight.png';
 
 const Flight = () => (
@@ -22,6 +23,7 @@ const Flight = () => (
         We also provide updates on Flight schedules, delays and cancellations;
         ensuring that customers have the most-up-to-date information when making their travel plans.
       </p>
+      <Button>Book flight</Button>
     </div>
   </div>
 );

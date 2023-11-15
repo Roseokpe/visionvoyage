@@ -17,10 +17,10 @@ const Hero = () => (
       <h2> Navigating Dreams, Connecting Worlds</h2>
       <div className="services">
         <p> Hotel Reservation</p>
-        <p> Vacation Planning</p>
+        <p> Vacation Packages</p>
         <p> Flight Booking</p>
         <p> Visa Processing</p>
-        <p> Education Advising</p>
+        <p> Study Abroad</p>
         <p> Honeymoon Packages</p>
         <p> Travel Insurance</p>
       </div>
